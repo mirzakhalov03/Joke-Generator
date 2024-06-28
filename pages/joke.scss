@@ -173,3 +173,28 @@ li, a{
         }
     }
 }
+
+@media screen and (max-width: 400px){
+    .joke__wrapper{
+        .hug{
+            .joke_title{
+                h1{
+                    font-size: 20px;
+                }
+                margin-bottom: 25px;
+            }
+
+            .joke__text{
+                width: 350px;
+            }
+        }
+    }
+}
+
+footer{
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.727);
+}
